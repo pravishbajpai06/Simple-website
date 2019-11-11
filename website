@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		FILL FORM
+	</title>
+</head>
+<body>
+	<img src="https://uploads.sarvgyan.com/2015/06/UPTU-Entrance-Exam-2016.jpg" width="100"> 
+
+   <form method="POST">
+    	<fieldset>
+    		<label>
+    			Firstname:
+    		</label>
+    		<input type="text" name="Firstname"><br>
+    		<label>Lastname:</label>
+    		<input type="text" name="Lastname"><br>
+
+    		<label>
+    			gender:
+    		</label>
+    		<input type="radio" name="gender" value="Male">male
+    		<input type="radio" name="gender" value="Female">female
+    		<input type="radio" name="gender" value="LGBTQ">LGBTQ
+    		<br>
+    		<label>Country:</label>
+    		<select name="Country">
+    			<option>France</option>
+    			<option>Italy</option>
+    			<option>India</option>
+    		</select>
+    		<br>
+    		<label>Notes:</label>
+    		<textarea name="Notes" cols="10" rows="20"></textarea>
+    		<br>
+    		<br>
+    		<input type="submit" value="Submit">
+
+    	</fieldset>
+    	
+
+
+
+
+    </form>
+</body>
+</html>
